@@ -1,0 +1,569 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.text-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: var(--very-dark-cyan);
+
+    font-size: 35px;
+}
+
+.paragraph1 {
+    font-size: 20px;
+    font-weight: 340;
+    color: var(--very-dark-cyan);
+
+}
+
+.text-heading2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: var(--very-dark-cyan);
+
+}
+
+.text-heading3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--very-dark-cyan);
+    font-size: 20px;
+    text-align: center;
+}
+
+.paragraph2 {
+    font-size: 15px;
+    color: var(--grayish-blue);
+    text-align: center;
+    font-weight: 400;
+}
+
+.btn {
+    background: var(--pink);
+    padding: .8rem;
+    border: 0;
+    outline: 0;
+    color: white;
+    border-radius: 10rem;
+    font-weight: 500;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+--very-dark-cyan: hsl(192, 100%, 9%);
+--grayish-blue: hsl(208, 11%, 55%);
+}
+
+.huddle__background {
+    background: url("img/bg-hero-mobile.svg") var(--very-pale-cyan) no-repeat center center/cover;
+    padding: 2rem;
+}
+
+.huddle__header__logo-holder {
+    width: 100%;
+    max-width: 70%;
+}
+
+.huddle__background__huddle__header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.huddle__header__logo-holder {
+    display: flex;
+}
+
+.huddle__header__logo {
+    width: 50%;
+    display: block;
+}
+
+.huddle__header__btn {
+    background: #ffff;
+    outline: none;
+    font-size: 15px;
+    width: 40%;
+    border: none;
+    padding: .4rem;
+    border-radius: 10rem;
+}
+
+.huddle__background__build-the-community {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.huddle__background__build-the-community .paragraph1 {
+    width: 83%;
+    margin: 1rem auto;
+}
+
+.huddle__background__build-the-community .btn {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 70%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.huddle__background__build-the-community__img {
+    width: 100%;
+    max-width: 90%;
+    margin-top: 4rem;
+}
+
+/*Main*/
+.huddle__sections {
+    background: #ffff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.huddle__sections .wrapper {
+    margin-bottom: 14rem;
+}
+
+.huddle__sections__section:nth-child(1) {
+    margin-top: 2rem;
+}
+
+.huddle__sections__section {
+    background: #ffff;
+    box-shadow: black 0 0 .5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.huddle__sections__section__img {
+    width: 100%;
+    max-width: 70%;
+    margin: 3rem auto;
+    display: flex;
+}
+
+.huddle__sections__section__text {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+
+.huddle__sections__section .paragraph2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.huddle__sections__section:nth-child(2),
+.huddle__sections__section:nth-child(3) {
+    margin-top: 3rem;
+}
+
+.huddle__sections__ready-to-build {
+    background: #ffff;
+    padding: 1rem;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    position: absolute;
+    top: 165rem;
+    left: 0;
+    right: 0;
+    box-shadow: black 0 0 .5rem;
+    border-radius: 1rem;
+}
+
+.text-heading3 {
+    font-size: 20px;
+    width: 100%;
+}
+
+.huddle__sections__ready-to-build .btn {
+    width: 70%;
+    margin-top: 1rem;
+}
+
+.huddle__footer {
+    background: var(--very-dark-cyan);
+    padding: 1rem;
+    color: #ffff;
+}
+
+path {
+    fill: white;
+}
+
+.huddle__footer__sec1 {
+    margin-top: 10rem;
+}
+
+.footer-logo
+{
+    display: flex;
+    margin-bottom: 1.7rem;
+    gap: 2.6rem;
+    align-items: baseline;
+}
+
+.introduction {
+    margin-top: 2rem;
+}
+
+.introduction  li {
+    display: flex;
+
+    margin-bottom: 1.7rem;
+    gap: 2.6rem;
+    align-items: baseline;
+}
+
+.huddle__footer__sec2 {
+    margin-top: 4rem;
+}
+
+.huddle__footer__sec2 li,
+.huddle__footer__sec2__two li
+{
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 3rem auto 0 auto;
+    max-width: 40%;
+}
+
+.social li img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.copy-right {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media all and (min-width: 530px) {
+    .huddle__sections__ready-to-build {
+        top: 170rem;
+    }
+}
+
+@media all and (min-width: 620px) {
+    .huddle__sections__ready-to-build {
+        top: 175rem;
+    }
+}
+
+@media all and (min-width: 667px) {
+    .huddle__sections__ready-to-build {
+        top: 180rem;
+    }
+}
+
+@media all and (min-width: 710px) {
+    .huddle__sections__ready-to-build {
+        top: 185rem;
+    }
+}
+
+@media all and (min-width: 740px) {
+    .huddle__sections__ready-to-build {
+        top: 189rem;
+    }
+}
+
+@media all and (min-width: 780px) {
+    .huddle__sections__ready-to-build {
+        top: 193rem;
+    }
+}
+
+@media all and (min-width: 780px) {
+    .huddle__sections__ready-to-build {
+        top: 198rem;
+    }
+}
+
+@media all and (min-width: 907px) {
+    .huddle__sections__ready-to-build {
+        top: 206rem;
+    }
+
+
+
+    .social li img {
+        width: 50%;
+        cursor: pointer;
+    }
+
+}
+
+@media all and (min-width: 963px) {
+    .huddle__sections__ready-to-build {
+        top: 210rem;
+    }
+}
+
+@media all and (min-width: 990px) {
+    .huddle__sections__ready-to-build {
+        top: 215rem;
+    }
+}
+
+@media all and (min-width: 1035px) {
+    .huddle__sections__ready-to-build {
+        top: 220rem;
+    }
+}
+
+@media all and (min-width: 1080px) {
+    .huddle__sections__ready-to-build {
+        top: 225rem;
+    }
+}
+
+@media all and (min-width: 1120px) {
+    .huddle__sections__ready-to-build {
+        top: 230rem;
+    }
+}
+
+@media all and (min-width: 1165px) {
+    .huddle__sections__ready-to-build {
+        top: 235rem;
+    }
+}
+
+@media all and (min-width: 1205px) {
+    .huddle__sections__ready-to-build {
+        top: 240rem;
+    }
+}
+
+@media all and (min-width: 1250px) {
+    .huddle__sections__ready-to-build {
+        top: 247rem;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    .huddle__sections__ready-to-build {
+        top: 250rem;
+    }
+}
+
+@media all and (min-width: 1325px) {
+    .huddle__sections__ready-to-build {
+        top: 255rem;
+    }
+}
+
+@media all and (min-width: 1365px) {
+    .huddle__sections__ready-to-build {
+        top: 260rem;
+    }
+}
+
+
+@media all and (min-width: 1402px) {
+    .huddle__sections__ready-to-build {
+        top: 265rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        margin-top: 1rem;
+    }
+
+    .huddle__header__logo {
+        width: 20%;
+    }
+
+    .huddle__header__btn {
+        width: 15%;
+        box-shadow: black 0 0 .5rem;
+        padding: 1rem;
+        border-radius: 20rem;
+    }
+
+    .huddle__background__build-the-community {
+        margin-top: 2rem;
+    }
+
+    .huddle__background__build-the-community .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left {
+        width: 50%;
+        text-align: left;
+    }
+
+    .huddle__background__build-the-community .paragraph1 {
+        width: unset;
+    }
+
+    .huddle__background__build-the-community .paragraph1 {
+        font-weight: 400;
+    }
+
+    .huddle__background__build-the-community .btn {
+        max-width: 46%;
+    }
+
+    .right {
+        text-align: end;
+    }
+
+    .huddle__background__build-the-community__img {
+        width: 90%;
+    }
+
+    /*HUDDLE SECTION*/
+
+    .huddle__sections__section:last-child {
+        margin-bottom: 8rem;
+    }
+
+    .huddle__sections__section img {
+        max-width: 33%;
+    }
+
+    .huddle__sections__section:nth-child(1),
+    .huddle__sections__section:nth-child(3) {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5rem;
+    }
+
+    .huddle__sections__section:nth-child(2) {
+        display: flex;
+    }
+
+    .huddle__sections__section__text {
+        width: 40%;
+    }
+
+    .huddle__sections__section__text p {
+        text-align: left;
+    }
+
+    .huddle__sections__section__text .text-heading2 {
+        font-weight: 600;
+        font-size: 31px;
+    }
+
+    .huddle__sections__section__text .paragraph2 {
+        font-size: 18px;
+    }
+
+
+    .huddle__sections__ready-to-build {
+        height: 30%;
+        width: 53%;
+        top: 153rem;
+    }
+
+
+    .huddle__sections__ready-to-build .text-heading3 {
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    .huddle__sections__ready-to-build .btn {
+        width: 50%;
+        padding: 1.5rem;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+/*    FOOTER*/
+
+    .huddle__footer__sec1 {
+        margin-top: 7rem;
+    }
+
+    .footer__flex {
+        display: flex;
+        margin-top: -3rem;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+
+
+    .introduction {
+        width: 100%;
+        max-width: 30%;
+    }
+
+    .footer__link-flex {
+        display: flex;
+        gap: 7rem;
+    }
+
+    .social li img {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .huddle__footer__sec2 li {
+        font-size: 20px;
+    }
+
+    .copy-right {
+        margin-top: 13rem;
+    }
+
+}
+
+
+
+@media all and (min-width: 1540px) {
+    .huddle__sections__ready-to-build {
+        top: 158rem;
+    }
+}
+
+
+
+@media all and (min-width: 1920px) {
+    .huddle__sections__ready-to-build {
+        top: 160rem;
+    }
+}
+
